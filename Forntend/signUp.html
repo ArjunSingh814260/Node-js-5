@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/5df3a15e37.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>SignUp</h1>
+      <form action="" id="form">
+        <div class="form-controller">
+          <label> First Name </label>
+          <input type="text" name="fName" placeholder="First name" id="fName" />
+          <i class="error fa-solid fa-check"></i>
+          <i class="fa-solid fa-circle-xmark"></i>
+          <small>Error Message </small>
+        </div>
+        <div class="form-controller">
+          <label> Last Name </label>
+          <input type="text" name="fName" placeholder="Last name" id="lName" />
+          <i class="fa-solid fa-check"></i>
+          <i class="fa-solid fa-circle-xmark"></i>
+          <small>Error Message</small>
+        </div>
+        <div class="form-controller">
+          <label> Email</label>
+          <input
+            type="email"
+            name="fName"
+            placeholder="CodeDrill@infotech.com"
+            id="email"
+          />
+          <i class="fa-solid fa-check"></i>
+          <i class="fa-solid fa-circle-xmark"></i>
+          <small>Error Message</small>
+        </div>
+
+        <div class="form-controller">
+          <label> Password</label>
+          <input
+            type="password"
+            name="fName"
+            placeholder="Password"
+            id="Password"
+          />
+          <i class="fa-solid fa-check"></i>
+          <i class="fa-solid fa-circle-xmark"></i>
+          <small>Error Message</small>
+        </div>
+
+        <div class="form-controller">
+          <label> Upload Your Pic</label>
+          <input type="file" name="file" id="file" />
+          <small>Error Message</small>
+        </div>
+        <button>Save</button>
+      </form>
+    </div>
+    <link rel="stylesheet" href="../Forntend/css/signUp.css" />
+    <script src="./script/signUp.js"></script>
+  </body>
+</html>
